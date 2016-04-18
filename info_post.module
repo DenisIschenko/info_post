@@ -16,7 +16,7 @@ function info_post_theme() {
   return array(
     'info_post_block' => array(
       'render element' => 'data',
-      'template' => 'plugins/templates/info_post'
+      'template' => 'templates/info_post'
     ),
   );
 }
