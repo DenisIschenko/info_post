@@ -1,0 +1,22 @@
+<?php
+
+/**
+ * Implements hook_ctools_plugin_directory()
+ */
+function info_post_ctools_plugin_directory($module, $plugin) {
+  if (($module == 'ctools') && ($plugin == 'content_types')) {
+    return 'plugins/content_types';
+  }
+}
+
+/**
+ * Implements hook_theme()
+ */
+function info_post_theme() {
+  return array(
+    'info_post_block' => array(
+      'render element' => 'data',
+      'template' => 'plugins/templates/info_post'
+    ),
+  );
+}

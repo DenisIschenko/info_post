@@ -1,0 +1,9 @@
+name = Info post
+description = Plagin for view about post (autor, date, first 3 tags).
+package = Custom
+
+version = "7.x-1.0"
+core = "7.x"
+
+dependencies[] = ctools
+dependencies[] = panels
